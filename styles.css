@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffeb99;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    text-align: center;
+    background-image: url('https://www.transparenttextures.com/patterns/heart-pattern.png');
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #d84315;
+}
+
+.teddy {
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    animation: bounce 1.5s infinite alternate;
+}
+
+/* Cute bounce effect */
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
